@@ -4,5 +4,8 @@ def my_collect(array)
   
   while counter < array.length 
     collection2 << yeild(array[counter])
+    counter += 1 
+  end
+end
     
 
